@@ -108,12 +108,7 @@ div.navbar-menu a.here {
   background-size: cover;
   background-attachment: fixed;
 }
-#games {
-  height: 100px;
-  min-height: 500px;
-  background-size: cover;
-  background-attachment: fixed;
-}
+
 #about .inner-width{
   display: flex;
   align-items: center;
@@ -122,7 +117,7 @@ div.navbar-menu a.here {
   text-align: center;
 }
 #about .content{
-  width: 100%;
+  width: 50%;
   color: #fff;
 }
 #about p {
@@ -161,7 +156,6 @@ div.navbar-menu a.here {
   color: #fff;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em url(../images/cursor.png); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .18em; /* Adjust as needed */
@@ -197,24 +191,29 @@ div.navbar-menu a.here {
 #home .buttons{
   margin-top: 60px;
 }
+#home h2 {
+	 -webkit-text-stroke: 1px black;
+	
+}
 
 #home .buttons a{
   display: inline-block;
   margin: 15px 30px;
-  color: #485afb;
+  color: #C70039;
   font-size: 15px;
   font-weight: 500;
   width: 180px;
-  border: 1px solid #485afb;
+  border: 1px solid #C70039;
   padding: 14px 0;
-  border-radius: 6px;
+  border-radius: 15px;
   transition: .2s linear;
+
 }
 
 #home .buttons a:hover,
 #home .buttons a:nth-child(3)
 {
-  background-color: #485afb;
+  background-color: #C70039;
   color: rgb(255, 255, 255);
 }
 
@@ -403,4 +402,9 @@ div.navbar-menu a.here {
 #footer p {
   font-style: inherit;
   margin-bottom: 0.6em;
+}
+.cursor {
+	width: 64px;
+	height: 64px;
+	
 }
