@@ -97,7 +97,8 @@ div.navbar-menu a.here {
 #home{
   height: 100vh;
   min-height: 500px;
-  background: url(../images/bg.jpg) no-repeat center;
+  background: url(../images/bg.png) no-repeat;
+  background-position: center center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -131,43 +132,7 @@ div.navbar-menu a.here {
   font-size: 15px;
   font-weight: 500;
   width: 180px 180px;
-  border: 2px solid #578bfa;
-  padding: 14px 14px 14px 14px;
-  border-radius: 16px;
-  transition: .2s linear;
-}
-#games div.clicker {
-  display: inline-block;
-  margin: 15px 30px;
-  color: #578bfa;
-  font-size: 15px;
-  font-weight: 500;
-  width: 180px 180px;
-  border: 0px solid #578bfa;
-  padding: 14px 14px 14px 14px;
-  border-radius: 16px;
-  transition: .2s linear;
-  text-align: center;
-}
-#games .inner-width{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  text-align: center;
-}
-#games .content{
-  width: 100%;
-  color: #fff;
-}
-#games p {
-  display: inline-block;
-  margin: 15px 90px;
-  color: #578bfa;
-  font-size: 15px;
-  font-weight: 500;
-  width: 180px 180px;
-  border: 2px solid #578bfa;
+  border: 2px solid #a0fa57;
   padding: 14px 14px 14px 14px;
   border-radius: 16px;
   transition: .2s linear;
@@ -196,7 +161,7 @@ div.navbar-menu a.here {
   color: #fff;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15em url(../images/cursor.png); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .18em; /* Adjust as needed */
@@ -385,9 +350,8 @@ div.navbar-menu a.here {
 }
 #contact s {
   color: rgb(118, 231, 137);
-  padding: 2px 7px 2px 7px;
+  padding: 2px 2px 2px 7px;
   border-radius: 4px;
-
 }
 #contact s.Rank {
   color: rgb(207, 50, 63);
